@@ -9,12 +9,15 @@ public class Main {
         int control = -1;
 
         while (control != 0) {
-            System.out.println("Indique qual ação deseja executar: " +
-                    "\n1 - Novo cadastro" +
-                    "\n2 - Remover cadastrado" +
-                    "\n3 - Ver cadastros realizados" +
-                    "\n4 - Atualizar dados cadastrais" +
-                    "\n0 - Sair\n\n");
+            System.out.println("""
+                                       Indique qual ação deseja executar:\s
+                                       1 - Novo cadastro
+                                       2 - Remover cadastrado
+                                       3 - Ver cadastros realizados
+                                       4 - Atualizar dados cadastrais
+                                       0 - Sair
+
+                                       """);
 
             int option = scanner.nextInt();
 
